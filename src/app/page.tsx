@@ -28,24 +28,20 @@ export default function LandingPage() {
             />
 
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Sistem
+              Sistem e-pangkat
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit consectetur amet neque iste praesentium, eligendi expedita veniam, cupiditate eum dolore, ipsum officiis laudantium! Harum aut deleniti porro sint qui temporibus?
+              Aplikasi ini memudahkan pegawai dalam mengajukan dan memantau
+              proses kenaikan pangkat secara cepat, transparan, dan
+              terintegrasi.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
                 href="/dashboard/"
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Get Started
+                Mulai
               </Link>
-              <a
-                href="#"
-                className="text-sm font-semibold leading-6 text-gray-900"
-              >
-                Learn more <span aria-hidden="true">→</span>
-              </a>
             </div>
           </div>
         </div>
@@ -61,7 +57,7 @@ export default function LandingPage() {
             }}
           />
         </div>
-      </div >
-    </div >
+      </div>
+    </div>
   );
 }
