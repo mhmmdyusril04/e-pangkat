@@ -3,7 +3,6 @@ import {
   getMessaging,
   getToken,
   isSupported,
-  Messaging,
 } from "firebase/messaging";
 
 const firebaseConfig = {
